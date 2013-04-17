@@ -31,7 +31,7 @@ Even so, here comes a little taste of what you can get from this library:
         System.out.println("Backups Active? " + droplet.backups_active);
     }
 
-  // Get a reference for an existing droplet
+    // Get a reference for an existing droplet
     Droplet webserver = DigitalOcean.getDroplet(12345);
     webserver.powerOn();
 
